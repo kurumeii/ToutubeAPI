@@ -21,6 +21,5 @@ export const authLogin = async (
     httpOnly: true,
     sameSite: 'strict',
   })
-
   return res.status(StatusCodes.OK).send(jwt)
 }
